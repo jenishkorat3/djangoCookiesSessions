@@ -107,6 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
+# TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -122,3 +123,12 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# set default session cokkie age
+SESSION_COOKIE_AGE = 400
+
+# change name of session name
+SESSION_COOKIE_NAME = "JEKA"
+
+# change name of session path
+SESSION_COOKIE_PATH = "/home"
